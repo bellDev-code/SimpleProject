@@ -1,0 +1,225 @@
+.PortraitWholeWrap{
+    background-color: #ffffff;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display  : flex ;
+        margin : auto;
+        justify-content: center;
+
+    .PortraitWrapper{
+        // max-width: 1280px;
+        // width : 100%;
+        width: 1280px;
+        min-width: 1280px;
+        padding : 0 15px;
+        height : 1080px; 
+        display : flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .PortraitContainer{
+           
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .PortraitBox{
+        display: flex;        
+        align-items: center;
+        justify-content: space-between;
+    }
+    .PortraitImgBox{
+        >img {
+            max-width: 930px;
+            height: 815px;
+            width: 100%;
+            height : auto;
+        }
+    }
+    .PortraitTextBox{
+        text-align: left;
+        height : 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .PortraitName{
+        font-size: 10px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        text-align: right;
+        color: #777777;
+        margin-bottom : 25px;
+
+        ;
+    }
+    .PortraitTitleTextBox{
+
+    }
+    .PortraitNumber{
+        margin-bottom : 10px;
+        font-size: 10px;
+        font-weight: 600;
+        color : #151515
+    }
+    .PortraitTitle{
+        font-size: 24px;
+        font-weight: 800;
+        margin-bottom : 8px;
+        color : #151515
+    }
+    .PortraitLet{
+        font-size: 16px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color:#777777;
+        margin-bottom : 20px;
+    }
+    .PortraitYear{
+        font-size: 10px;
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #777777;
+        
+        >span{
+            width : 100%;
+            max-width : 28px;
+            margin-right : 8px;
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+            letter-spacing: normal;
+            text-align: left;
+            color: #151515;
+        }
+    }
+    .PortraitForm{
+        
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+        letter-spacing: normal;
+        text-align: left;
+        color: #777777;
+        margin-bottom : 40px;
+        span{
+            width : 100%;
+            max-width : 28px;
+            margin-right : 8px;
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+            letter-spacing: normal;
+            text-align: left;
+            color: #151515;
+        }
+    }
+    .PortraitSummary{
+        font-size: 10px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #151515;
+        margin-bottom : 9px;
+        
+    }
+    .PortraitSummaryText{
+        width: 224px;
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #777777;
+    }
+
+    ///////////////////////
+    .FooterBox{
+        margin-top: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        .FooterTitle{
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #777777;
+        }
+        .FooterCategoryTitle{
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: right;
+            color: #777777;
+        }
+    }
+}
+
+@media screen and (max-width:500px){
+    .PortraitWholeWrap{
+        .PortraitWrapper{
+            width: 500px;
+            min-height: 100vh;
+            min-width: initial;
+            height : initial;
+            padding : 30px 20px;
+        }
+        .PortraitContainer{
+            flex-direction: column;
+        }
+        .PortraitTextBox{
+
+        }
+        .PortraitTitleTextBox{
+            
+        }
+        .PortraitSummaryText{
+            br{
+                display: none;
+            }
+        }
+        .PortraitName{
+            display: none;
+            
+        }
+        .PortraitSummary{
+            font-size : 11px;
+        }
+        .PortraitSummaryText{
+            width: 100%;
+            font-size : 11px;
+            padding-bottom: 30px;
+            br{
+                display: initial;
+            }
+        }
+    }
+}

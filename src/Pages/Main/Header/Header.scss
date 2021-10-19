@@ -1,0 +1,118 @@
+.HeaderWrapper{
+    display : flex;
+    justify-content: center;
+    background-color: #f9f9f9;
+    
+    .HeaderContainer{
+        width: 1280px;
+        min-width: 1280px;
+        padding : 0 15px;
+        min-height : 100vh;    
+        display: flex;
+        flex-direction: column;
+    }
+    .HeaderFristRow{
+        flex : 1;
+        display : flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .HeaderTitle{
+            font-size: 30px;
+            font-weight: 800;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.33;
+            letter-spacing: normal;
+            text-align: left;
+            color: #151515;
+        }
+        
+    }
+    .HeaderSecondRow{
+        flex : 1;
+        text-align: right;
+        display : flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .HeaderName{
+            margin-top: 37px;
+            font-size: 30px;
+            font-weight: 200;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1;
+            letter-spacing: normal;
+            text-align: left;
+            color: #151515;
+        }
+
+
+        .HeaderDesignIsTopText{
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 2;
+            letter-spacing: 0.4px;
+            text-align: right;
+            color: #151515;
+        }
+        .HeaderDesignIsBottomText{
+            margin-top : 18px;
+            font-size: 12px;
+            font-weight: 200;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.67;
+            letter-spacing: normal;
+            text-align: right;
+            color: #151515;
+        }
+
+    }
+
+}
+
+
+
+@media screen and (max-width : 500px){
+    .HeaderWrapper{
+        display : flex;
+        justify-content: center;
+        background-color: #f9f9f9;
+        
+        .HeaderContainer{
+            width: 100%;
+            max-width: 1280px;
+            min-width : initial;
+            min-height:100vh;
+            padding : 0 20px;
+            height : auto;    
+            display: flex;
+            flex-direction: column;
+
+            .HeaderSecondRow{
+                flex : 1;
+                text-align: right;
+                display : flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-end;
+
+                .HeaderName{
+                    font-size: 25px;
+                    font-weight: 200;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1;
+                    letter-spacing: normal;
+                    text-align: right;
+                    color: #151515;
+                    margin-bottom : 30px;
+                }
+            }
+        }
+    }
+}

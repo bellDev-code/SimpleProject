@@ -1,0 +1,378 @@
+.WalkOnIceWholeWrap{
+    background-color: #e3e3e3;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display  : flex ;
+        margin : auto;
+        justify-content: center;
+
+    .WalkOnIceWrapper{
+        // max-width: 1280px;
+        // width : 100%;
+        min-width: 1280px;
+        width: 1280px;
+        padding : 0 15px;
+        height : 1080px; 
+        display : flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .WalkOnIceContainer{
+           
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .WalkOnIceBox{
+        display: flex;        
+        align-items: center;
+        justify-content: space-between;
+    }
+    .WalkOnIceImgBox{
+        >img {
+            max-width: 930px;
+            height: 815px;
+            width: 100%;
+            height : auto;
+        }
+    }
+    .WalkOnIceTextBox{
+        text-align: right;
+        height : 100%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .WalkOnIceName{
+        font-size: 10px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        text-align: right;
+        color: #777777;
+        margin-bottom: 175px;
+    }
+    .WalkOnIceTitleTextBox{
+
+    }
+    .WalkOnIceNumber{
+        margin-bottom : 10px;
+        font-size: 10px;
+        font-weight: 600;
+        color : #151515
+    }
+    .WalkOnIceTitle{
+        font-size: 24px;
+        font-weight: 800;
+        margin-bottom : 8px;
+        color : #151515
+    }
+    .WalkOnIceLet{
+        font-size: 16px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: right;
+        color:#777777;
+        margin-bottom : 20px;
+    }
+    .WalkOnIceYear{
+        font-size: 10px;
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: right;
+        color: #777777;
+        display : flex;
+        justify-content: flex-end;
+        align-items: center;
+        
+        >div{
+            margin-left : 8px;
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+            letter-spacing: normal;
+            text-align: right;
+            color: #151515;
+        }
+    }
+    .WalkOnIceForm{
+        display : flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+        letter-spacing: normal;
+        text-align: left;
+        color: #777777;
+        margin-bottom : 40px;
+        div{
+            margin-left : 8px;
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+            letter-spacing: normal;
+            text-align: left;
+            color: #151515;
+        }
+    }
+    .WalkOnIceSummary{
+        font-size: 10px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: right;
+        color: #151515;
+        margin-bottom : 9px;
+        
+    }
+    .WalkOnIceSummaryText{
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: right;
+        color: #151515;
+        max-width: 225px;
+    }
+
+    ///////////////////////
+    .FooterBox{
+        margin-top: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        .FooterTitle{
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #777777;
+        }
+        .FooterCategoryTitle{
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: right;
+            color: #777777;
+        }
+    }
+}
+
+
+
+@media screen and (max-width : 500px){
+    .WalkOnIceWholeWrap{
+        background-color: #e3e3e3;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            display  : flex ;
+            margin : auto;
+            justify-content: center;
+    
+        .WalkOnIceWrapper{
+            // max-width: 1280px;
+            // width : 100%;
+            min-width: initial;
+            width: 100%;
+            padding : 30px 15px;
+            height : initial;
+            min-height : 100vh; 
+            display : flex;
+            justify-content: center;
+            flex-direction: column;
+            
+        }
+        .WalkOnIceContainer{
+               
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-between;
+        }
+        .WalkOnIceBox{
+            display: flex;        
+            align-items: center;
+            justify-content: space-between;
+        }
+        .WalkOnIceImgBox{
+            >img {
+                max-width: 930px;
+                height: 815px;
+                width: 100%;
+                height : auto;
+            }
+        }
+        .WalkOnIceTextBox{
+            text-align: right;
+            height : 100%;
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .WalkOnIceName{
+            display : none;
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.4;
+            letter-spacing: normal;
+            text-align: right;
+            color: #777777;
+            margin-bottom: 175px;
+        }
+        .WalkOnIceTitleTextBox{
+            text-align: left;
+        }
+        .WalkOnIceNumber{
+            margin-bottom : 10px;
+            font-size: 10px;
+            font-weight: 600;
+            color : #151515
+        }
+        .WalkOnIceTitle{
+            font-size: 24px;
+            font-weight: 800;
+            margin-bottom : 8px;
+            color : #151515
+        }
+        .WalkOnIceLet{
+            font-size: 16px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color:#777777;
+            margin-bottom : 20px;
+        }
+        .WalkOnIceYear{
+            font-size: 10px;
+            font-size: 10px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: right;
+            color: #777777;
+            display : flex;
+            flex-direction: row-reverse;
+            justify-content: flex-end;
+            align-items: center;
+            
+            >div{
+                width : 35px;
+                margin-left : initial;
+                font-size: 11px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.8;
+                letter-spacing: normal;
+                text-align: left;
+                color: #151515;
+            }
+        }
+        .WalkOnIceForm{
+            display : flex;
+            justify-content: flex-end;
+            align-items: center;
+            font-size: 10px;
+            font-weight: 300;
+            font-stretch: normal;
+                font-style: normal;
+                line-height: 1.8;
+            letter-spacing: normal;
+            text-align: left;
+            color: #777777;
+            margin-bottom : 40px;
+            flex-direction: row-reverse;
+            div{
+                margin-left : initial;
+                width : 35px;
+                font-size: 11px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.8;
+                letter-spacing: normal;
+                text-align: left;
+                color: #151515;
+            }
+        }
+        .WalkOnIceSummary{
+            font-size: 11px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #151515;
+            margin-bottom : 9px;
+            
+        }
+        .WalkOnIceSummaryText{
+            font-size: 11px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: normal;
+            text-align: left;
+            color: #151515;
+            max-width: initial;
+            margin-bottom : 30px;
+        }
+    
+        ///////////////////////
+        .FooterBox{
+            margin-top: 25px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            
+            .FooterTitle{
+                font-size: 10px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                letter-spacing: normal;
+                text-align: left;
+                color: #777777;
+            }
+            .FooterCategoryTitle{
+                font-size: 10px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                letter-spacing: normal;
+                text-align: right;
+                color: #777777;
+            }
+        }
+    }
+}

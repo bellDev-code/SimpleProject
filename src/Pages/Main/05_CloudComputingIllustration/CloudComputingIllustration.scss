@@ -1,0 +1,360 @@
+.CloudComputingIllustrationWholeWrap{
+    background-color: #05932c;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display  : flex ;
+        margin : auto;
+        justify-content: center;
+
+    .CloudComputingIllustrationWrapper{
+        width: 1280px;
+        min-width: 1280px;
+        padding : 0 15px;
+        height : 1080px; 
+        display : flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .CloudComputingIllustrationContainer{
+           
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .CloudComputingIllustrationBox{
+        display: flex;        
+        align-items: center;
+        justify-content: space-between;
+    }
+    .CloudComputingIllustrationImgBox{
+        >img {
+            max-width: 930px;
+            height: 815px;
+            width: 100%;
+            height : auto;
+        }
+    }
+    .CloudComputingIllustrationTextBox{
+        text-align: left;
+        height : 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .CloudComputingIllustrationName{
+        font-size: 10px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        text-align: right;
+        color: #3000b8;
+    }
+    .CloudComputingIllustrationTitleTextBox{
+
+    }
+    .CloudComputingIllustrationNumber{
+        margin-bottom : 10px;
+        font-size: 10px;
+        font-weight: 600;
+        color : #3000b8
+    }
+    .CloudComputingIllustrationTitle{
+        font-size: 24px;
+        font-weight: 800;
+        margin-bottom : 8px;
+        color : #3000b8
+    }
+    .CloudComputingIllustrationLet{
+        font-size: 16px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color:#3000b8;
+        margin-bottom : 20px;
+    }
+    .CloudComputingIllustrationYear{
+        font-size: 10px;
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #3000b8;
+        
+        >span{
+            margin-right : 8px;
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+            letter-spacing: normal;
+            text-align: left;
+            color: #3000b8;
+        }
+    }
+    .CloudComputingIllustrationForm{
+        
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+        letter-spacing: normal;
+        text-align: left;
+        color: #3000b8;
+        margin-bottom : 40px;
+        span{
+            margin-right : 8px;
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+            letter-spacing: normal;
+            text-align: left;
+            color: #3000b8;
+        }
+    }
+    .CloudComputingIllustrationSummary{
+        font-size: 10px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: right;
+        color: #3000b8;
+        margin-bottom : 9px;
+        
+    }
+    .CloudComputingIllustrationSummaryText{
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: right;
+        color: #3000b8;
+        max-width: 228px;
+    }
+
+    ///////////////////////
+    .FooterBox{
+        margin-top: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        .FooterTitle{
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #3000b8;
+        }
+        .FooterCategoryTitle{
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: right;
+            color: #3000b8;
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width : 500px){
+    .CloudComputingIllustrationWholeWrap{
+        background-color: #05932c;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            display  : flex ;
+            margin : auto;
+            justify-content: center;
+    
+        .CloudComputingIllustrationWrapper{
+            width: 100%;
+            min-width: initial;
+            padding : 30px 20px;
+            height : initial;
+            min-height : 100vh; 
+            display : flex;
+            justify-content: center;
+            flex-direction: column;
+            
+        }
+        .CloudComputingIllustrationContainer{
+               
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .CloudComputingIllustrationBox{
+            display: flex;        
+            align-items: center;
+            justify-content: space-between;
+        }
+        .CloudComputingIllustrationImgBox{
+            >img {
+                max-width: 930px;
+                height: 815px;
+                width: 100%;
+                height : auto;
+            }
+        }
+        .CloudComputingIllustrationTextBox{
+            text-align: left;
+            height : 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .CloudComputingIllustrationName{
+            display : none;
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.4;
+            letter-spacing: normal;
+            text-align: right;
+            color: #3000b8;
+        }
+        .CloudComputingIllustrationTitleTextBox{
+    
+        }
+        .CloudComputingIllustrationNumber{
+            margin-bottom : 10px;
+            font-size: 10px;
+            font-weight: 600;
+            color : #3000b8
+        }
+        .CloudComputingIllustrationTitle{
+            font-size: 24px;
+            font-weight: 800;
+            margin-bottom : 8px;
+            color : #3000b8
+        }
+        .CloudComputingIllustrationLet{
+            font-size: 16px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color:#3000b8;
+            margin-bottom : 20px;
+        }
+        .CloudComputingIllustrationYear{
+            font-size: 10px;
+            font-size: 10px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #3000b8;
+            
+            >span{
+                margin-right : 8px;
+                font-size: 10px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.8;
+                letter-spacing: normal;
+                text-align: left;
+                color: #3000b8;
+            }
+        }
+        .CloudComputingIllustrationForm{
+            
+            font-size: 10px;
+            font-weight: 300;
+            font-stretch: normal;
+                font-style: normal;
+                line-height: 1.8;
+            letter-spacing: normal;
+            text-align: left;
+            color: #3000b8;
+            margin-bottom : 40px;
+            span{
+                margin-right : 8px;
+                font-size: 10px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.8;
+                letter-spacing: normal;
+                text-align: left;
+                color: #3000b8;
+            }
+        }
+        .CloudComputingIllustrationSummary{
+            margin-top : 15px;
+            font-size: 11px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #3000b8;
+            margin-bottom : 9px;
+            
+        }
+        .CloudComputingIllustrationSummaryText{
+            font-size: 11px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: normal;
+            text-align: left;
+            color: #3000b8;
+            max-width: initial;
+            
+        }
+    
+        ///////////////////////
+        .FooterBox{
+            margin-top: 25px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            
+            .FooterTitle{
+                font-size: 10px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                letter-spacing: normal;
+                text-align: left;
+                color: #3000b8;
+            }
+            .FooterCategoryTitle{
+                font-size: 10px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                letter-spacing: normal;
+                text-align: right;
+                color: #3000b8;
+            }
+        }
+    }
+}

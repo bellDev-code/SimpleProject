@@ -1,0 +1,335 @@
+.CalendarContaner{
+    .CalendarWrapper{
+        display: flex;
+        flex-direction: column;
+        width: 1280px;
+        min-width: 1280px;
+        padding: 0 15px;
+        height: 1080px;
+        justify-content: center;
+        margin : auto;  
+    }
+    .CalendarBox{
+        display: flex;        
+        align-items: center;
+        justify-content: space-between;
+    }
+    .CalendarImgBox{
+        >img {
+            width: 100%;
+        }
+    }
+    .CalendarTextBox{
+        text-align: right;
+        height : 100%;
+    }
+    .CalendarName{
+        font-size: 10px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        text-align: right;
+        color: #777777;
+    }
+    .CalendarTitleTextBox{
+
+    }
+    .CalendarNumber{
+        margin-top : 281px;
+        margin-bottom : 10px;
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .CalendarTitle{
+        font-size: 24px;
+        font-weight: 800;
+        margin-bottom : 8px;
+    }
+    .CalendarLet{
+        font-size: 16px;
+        font-weight: 300;
+        color:#777777;
+        margin-bottom : 20px;
+    }
+    .CalendarYear{
+        font-size: 10px;
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #777777;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        >div{
+            min-width : 35px;
+            margin-left : initial;
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+            letter-spacing: normal;
+            text-align: right;
+            color: #151515;
+        }
+    }
+    .CalendarForm{
+        
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+        letter-spacing: normal;
+        text-align: left;
+        color: #777777;
+        margin-bottom : 40px;
+        display: flex;
+        align-items: center;
+    
+        justify-content: flex-end;
+        div{
+            
+            min-width : 35px;
+            margin-left : initial;
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+            letter-spacing: normal;
+            text-align: right;
+            color: #151515;
+        }
+    }
+    .CalendarSummary{
+        font-size: 10px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: right;
+        color: #151515;
+        margin-bottom : 9px;
+        
+    }
+    .CalendarSummaryText{
+        width: 214px;
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: right;
+        color: #777777;
+    }
+
+    ///////////////////////
+    .FooterBox{
+        margin-top: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        .FooterTitle{
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #777777;
+        }
+        .FooterCategoryTitle{
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: right;
+            color: #777777;
+        }
+    }
+    
+}
+
+
+
+
+
+@media screen and (max-width : 500px){
+    .CalendarContaner{
+        .CalendarWrapper{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            min-width: initial;
+            padding: 30px 20px;
+            height: initial;
+            justify-content: center;
+            
+            margin : auto;  
+        }
+        .CalendarBox{
+            display: flex;  
+            flex-direction: column-reverse;      
+            align-items: center;
+            justify-content: space-between;
+        }
+        .CalendarImgBox{
+            display : initial;
+            >img {
+                width : 100%;
+                height: auto;
+            }
+        }
+        .CalendarTextBox{
+            text-align: left;
+            height : 100%;
+            width : 100%;
+        }
+        .CalendarName{
+            display: none;
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.4;
+            letter-spacing: normal;
+            text-align: right;
+            color: #777777;
+        }
+        .CalendarTitleTextBox{
+    
+        }
+        .CalendarNumber{
+            margin-top : initial;
+            margin-bottom : 10px;
+            font-size: 10px;
+            font-weight: 600;
+        }
+        .CalendarTitle{
+            font-size: 24px;
+            font-weight: 800;
+            margin-bottom : 8px;
+        }
+        .CalendarLet{
+            font-size: 16px;
+            font-weight: 300;
+            color:#777777;
+            margin-bottom : 20px;
+        }
+        .CalendarYear{
+            font-size: 10px;
+            font-size: 10px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #777777;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: flex-end;
+            >div{
+                min-width : 35px;
+                margin-left : initial;
+                font-size: 11px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.8;
+                letter-spacing: normal;
+                text-align: left;
+                color: #151515;
+            }
+        }
+        .CalendarForm{
+            
+            font-size: 10px;
+            font-weight: 300;
+            font-stretch: normal;
+                font-style: normal;
+                line-height: 1.8;
+            letter-spacing: normal;
+            text-align: left;
+            color: #777777;
+            margin-bottom : 40px;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: flex-end;
+            div{
+                min-width : 35px;
+                margin-left : initial;
+                font-size: 11px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.8;
+                letter-spacing: normal;
+                text-align: left;
+                color: #151515;
+            }
+        }
+        .CalendarSummary{
+            font-size: 11px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #151515;
+            margin-bottom : 9px;
+            
+        }
+        .CalendarSummaryText{
+            width: 100%;
+            font-size: 11px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: normal;
+            text-align: left;
+            color: #777777;
+            br{
+                
+            }
+            margin-bottom : 30px;
+        }
+    
+        ///////////////////////
+        .FooterBox{
+            margin-top: 15px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            
+            .FooterTitle{
+                font-size: 10px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                letter-spacing: normal;
+                text-align: left;
+                color: #777777;
+            }
+            .FooterCategoryTitle{
+                font-size: 10px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                letter-spacing: normal;
+                text-align: right;
+                color: #777777;
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,184 @@
+.GreenEyedWholeWrap2{
+    background-image: url('../../../_asset/images/Main/19_GreenEyedMonster/19-img-2@3x.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display  : flex ;
+        margin : auto;
+        justify-content: center;
+        color: #a6984d;
+        height : 1080px; 
+        align-items: center;
+    .GreenEyedWrapper{
+        // max-width: 1280px;
+        // width : 100%;
+        min-width: 1280px;
+        width: 1280px;
+        padding : 0 15px;
+        max-height: 880px;
+        height: 100%;
+        display : flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .GreenEyedContainer{
+        height : 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .GreenEyedBox{
+        display: flex;        
+        align-items: center;
+        justify-content: space-between;
+    }
+    .GreenEyedImgBox{
+        >img {
+            max-width: 930px;
+            height: 815px;
+            width: 100%;
+            height : auto;
+        }
+    }
+    .GreenEyedTextBox{
+        text-align: left;
+        height : 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .GreenEyedName{
+        font-size: 10px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        text-align: right;
+        color: #a6984d
+
+        ;
+    }
+
+    .GreenEyedNumber{
+        margin-bottom : 10px;
+        font-size: 10px;
+        font-weight: 600;
+        color : #a6984d
+    }
+    .GreenEyedTitle{
+        font-size: 24px;
+        font-weight: 800;
+        margin-bottom : 8px;
+        color : #a6984d
+    }
+    .GreenEyedLet{
+        font-size: 16px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color:#a6984d;
+        margin-bottom : 20px;
+    }
+    .GreenEyedYear{
+        font-size: 10px;
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #a6984d;
+        
+        >span{
+            margin-right : 8px;
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+            letter-spacing: normal;
+            text-align: left;
+            color: #a6984d;
+        }
+    }
+    .GreenEyedForm{
+        
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+        letter-spacing: normal;
+        text-align: left;
+        color: #a6984d;
+        margin-bottom : 40px;
+        span{
+            margin-right : 8px;
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+            letter-spacing: normal;
+            text-align: left;
+            color: #a6984d;
+        }
+    }
+    .GreenEyedSummary{
+        font-size: 10px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: right;
+        color: #a6984d;
+        margin-bottom : 9px;
+        
+    }
+    .GreenEyedSummaryText{
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: right;
+        color: #a6984d;
+    }
+
+    ///////////////////////
+    .FooterBox{
+        margin-top: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        .FooterTitle{
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #a6984d;
+        }
+        .FooterCategoryTitle{
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: right;
+            color: #a6984d;
+        }
+    }
+}
+@media screen and (max-width:500px){
+    .GreenEyedWholeWrap2{
+        display: none;
+    }
+}

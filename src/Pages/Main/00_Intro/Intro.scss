@@ -1,0 +1,423 @@
+.IntroWholeWrap{
+    font-family: 'Montserrat';
+}
+.IntroWrapper{
+    display : flex;
+    justify-content: center;
+    background-color: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    .IntroContainer{
+        width: 1280px;
+        min-width: 1280px;
+        padding : 0 15px;
+        height : 1080px;    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .IntroFirstRow{
+            color : #ffffff;
+            display : flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            .IntroContents{
+                flex : 2;
+                margin-right : 15px;
+                height : 100%;
+                .Number{
+                    font-size: 10px;
+                    font-weight: 600;
+                    font-stretch: normal;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #151515;                 
+                }
+                .Title{
+                    margin-top : 14px;
+                    margin-bottom : 3px;
+                    font-size: 24px;
+                    font-weight: 800;
+                    font-stretch: normal;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #151515;
+                    
+                }
+                .SubTitle{
+                    font-size: 16px;
+                    font-weight: 300;
+                    font-stretch: normal;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #777777;
+                    margin-bottom: 23px;            
+                }
+                .MiddleRow{
+                    display : flex;
+                    margin-bottom: 45px;
+                    .YearTitle{
+                        font-size: 10px;
+                        font-weight: 500;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.8;
+                        letter-spacing: normal;
+                        text-align: left;
+                        color: #151515;  
+                        margin-right : 5px;          
+                    }
+                    .YearContents{
+                        font-size: 10px;
+                        font-weight: 300;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.8;
+                        letter-spacing: normal;
+                        text-align: left;
+                        color: #777777;
+                        margin-left : 5px;
+                    }
+
+                }
+                .SummaryTitle{
+                    margin-bottom : 5px;
+                    font-size: 10px;
+                    font-weight: 400;
+                    font-stretch: normal;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #151515;             
+                }
+                .SummaryContents{
+                    font-size: 11px;
+                    padding-right: 30px;
+                    font-weight: 300;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.5;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #777777;
+                
+                    
+                }
+
+            }
+            .ExampleOfUseContainer{
+                flex : 6;
+                display : flex;
+                flex-wrap: wrap;
+                align-items: flex-end;
+                justify-content: space-between;
+                img{
+                    display : flex;
+                    margin: 15px 0;
+                    width : 100%;
+                }
+                .ExampleOfUseBox{
+                    .Name{
+                        font-size: 10px;
+                        font-weight: 500;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.4;
+                        letter-spacing: normal;
+                        text-align: right;
+                        color: #777777;
+                        margin-bottom : 16px;
+                    }
+                    .Title{
+                        font-size: 10px;
+                        font-weight: 300;
+                        font-stretch: normal;
+                        font-style: normal;
+                        letter-spacing: normal;
+                        text-align: left;
+                        color: #777777;
+                        margin-bottom : 8px;
+                    }
+                    .Img{
+                        img{
+                            width : 100%;
+                        }
+                    }
+                }
+            }
+
+        }
+        //////////////// Visual Design
+        .VisualDesignTitle{
+            font-size: 10px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: normal;
+            text-align: left;
+            color: #777777;
+            margin-bottom : 8px;
+        }
+        .VisualDesignImg{
+            img{
+                width : 100%;
+            }
+        }
+
+        ///////////// Footer
+        .FooterBox{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            .FooterTitle{
+                font-size: 10px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                letter-spacing: normal;
+                text-align: left;
+                color: #777777;
+            }
+            .FooterCategoryTitle{
+                font-size: 10px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                letter-spacing: normal;
+                text-align: right;
+                color: #777777;
+            }
+        }
+
+    }
+}
+
+
+//////////////////////////// 두번째 페이지
+
+
+
+
+
+
+////// 모바일
+
+@media screen and (max-width : 500px){
+    .IntroWholeWrap{
+        font-family: 'Montserrat';
+    }
+    .IntroWrapper{
+        display : flex;
+        justify-content: center;
+        background-color: #ffffff;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        .IntroContainer{
+            width: 100%;
+            min-width: initial;
+            padding : 30px 20px;
+            height : initial;
+            min-height : 100vh;    
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+    
+            .IntroFirstRow{
+                color : #151515;
+                display : flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                
+                .IntroContents{
+                    flex : 2;
+                    margin-right : 15px;
+                    height : 100%;
+                    .Number{
+                        font-size: 10px;
+                        font-weight: 600;
+                        font-stretch: normal;
+                        font-style: normal;
+                        letter-spacing: normal;
+                        text-align: left;
+                        color: #151515;                 
+                    }
+                    .Title{
+                        margin-top : 14px;
+                        margin-bottom : 3px;
+                        font-size: 24px;
+                        font-weight: 800;
+                        font-stretch: normal;
+                        font-style: normal;
+                        letter-spacing: normal;
+                        text-align: left;
+                        color: #151515;
+                        
+                    }
+                    .SubTitle{
+                        font-size: 16px;
+                        font-weight: 300;
+                        font-stretch: normal;
+                        font-style: normal;
+                        letter-spacing: normal;
+                        text-align: left;
+                        color: #777777;
+                        margin-bottom: 23px;            
+                    }
+                    .MiddleRow{
+                        display : flex;
+                        margin-bottom: 45px;
+                        .YearTitle{
+                            font-size: 11px;
+                            font-weight: 500;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: 1.8;
+                            letter-spacing: normal;
+                            text-align: left;
+                            color: #151515;  
+                            margin-right : 5px;          
+                        }
+                        .YearContents{
+                            font-size: 11px;
+                            font-weight: 300;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: 1.8;
+                            letter-spacing: normal;
+                            text-align: left;
+                            color: #777777;
+                            margin-left : 5px;
+                        }
+    
+                    }
+                    .SummaryTitle{
+                    
+                        margin-bottom : 5px;
+                        font-size: 11px;
+                        font-weight: 400;
+                        font-stretch: normal;
+                        font-style: normal;
+                        letter-spacing: normal;
+                        text-align: left;
+                        color: #151515;             
+                    }
+                    .SummaryContents{
+                        font-size: 12px;
+                        font-weight: 300;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.5;
+                        letter-spacing: normal;
+                        text-align: left;
+                        color: #777777;
+                        br{
+                            
+                        }
+                        margin-bottom : 30px;
+                    }
+    
+                }
+                .ExampleOfUseContainer{
+                    flex : 2;
+                    display : flex;
+                    flex-wrap: wrap;
+                    align-items: flex-end;
+                    justify-content: space-between;
+                    img{
+                        display : flex;
+                        margin: initial;
+                        margin-bottom: 15px;
+                        width : 100%;
+                    }
+                    .ExampleOfUseBox{
+                        .Name{
+                            display : none;
+                            font-size: 10px;
+                            font-weight: 500;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: 1.4;
+                            letter-spacing: normal;
+                            text-align: right;
+                            color: #777777;
+                            margin-bottom : 16px;
+                        }
+                        .Title{
+                            font-size: 10px;
+                            font-weight: 300;
+                            font-stretch: normal;
+                            font-style: normal;
+                            letter-spacing: normal;
+                            text-align: left;
+                            color: #777777;
+                            margin-bottom : 8px;
+                        }
+                        .Img{
+                            img{
+                                width : 100%;
+                            }
+                        }
+                    }
+                }
+    
+            }
+            //////////////// Visual Design
+            .VisualDesignTitle{
+                font-size: 10px;
+                font-weight: 300;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.5;
+                letter-spacing: normal;
+                text-align: left;
+                color: #777777;
+                margin-bottom : 8px;
+            }
+            .VisualDesignImg{
+                img{
+                    width : 100%;
+                }
+            }
+    
+            ///////////// Footer
+            .FooterBox{
+                display: flex;
+                justify-content: space-between;
+                margin-top: initial;
+                margin-bottom: initial;
+                .FooterTitle{
+                    font-size: 10px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #777777;
+                }
+                .FooterCategoryTitle{
+                    font-size: 10px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    text-align: right;
+                    color: #777777;
+                }
+            }
+    
+        }
+    }
+    
+    
+    //////////////////////////// 두번째 페이지
+    
+}
+

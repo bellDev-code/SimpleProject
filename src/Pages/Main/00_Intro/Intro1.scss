@@ -1,0 +1,151 @@
+.Intro1Container2{
+    display : flex;
+    justify-content: center;
+    background-image: url('../../../_asset/images/Main/00_Intro/00-img-07@3x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+    .Intro1Box{
+        // max-width: 1280px;
+        // width : 100%;
+        width: 1280px;
+        min-width: 1280px;
+        padding : 0 15px;
+        height : 1080px;    
+        display: flex;
+        flex-direction: column;
+      //  justify-content: center;
+        .TopNumNameBox{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 100px;
+            .TopNum{
+                font-size: 10px;
+                font-weight: 600;
+            }
+            .TopName{
+                font-size: 10px;
+            }
+        }
+        .ContantsBox{
+            display: flex;
+            margin-bottom: 30px;
+        }
+        .TitleBox{
+            .Title{
+                font-size: 24px;
+                font-weight: 600;
+            }
+            .SubTitle{
+                margin-bottom: 30px;
+            }
+        }
+        .YearBox{
+            display: flex;
+            .Year{
+                font-size: 10px;
+                margin-right: 13px;
+            }
+            .Year2{
+                font-size: 10px;
+            }
+        }
+        .FormBox{
+            display: flex;
+            margin-bottom: 737px;
+            .Form{
+                font-size: 10px;
+                margin-right: 10px;
+            }
+            .Form2{
+                font-size: 10px;
+            }
+        }
+        .BottomBox{
+            display: flex;
+            justify-content: space-between;
+            font-size: 10px;
+        }
+    }
+}
+
+@media screen and (max-width:500px){
+    .Intro1Container2{
+        display : flex;
+        justify-content: center;
+        background-image: url('../../../_asset/images/Main/00_Intro/00-img-07.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: #ffffff;
+        .Intro1Box{
+            // max-width: 1280px;
+            // width : 100%;
+            width:  1000%;
+            
+            min-width: initial;
+            padding : 30px 20px;
+            height : initial; 
+            min-height: 100vh;   
+            display: flex;
+            flex-direction: column;
+          //  justify-content: center;
+            .TopNumNameBox{
+                display: flex;
+                justify-content: space-between;
+                margin-top: initial;
+                .TopNum{
+                    font-size: 10px;
+                    font-weight: 600;
+                }
+                .TopName{
+                    display: none;
+                    font-size: 10px;
+                }
+            }
+            .ContantsBox{
+                display: flex;
+                margin-bottom: 30px;
+            }
+            .TitleBox{
+                max-height: 1200px;
+                height : 100%;
+                .Title{
+                    font-size: 24px;
+                    font-weight: 600;
+                }
+                .SubTitle{
+                    margin-bottom: 30px;
+                }
+            }
+            .YearBox{
+                display: flex;
+                .Year{
+                    font-size: 10px;
+                    margin-right: 13px;
+                }
+                .Year2{
+                    font-size: 10px;
+                }
+            }
+            .FormBox{
+                display: flex;
+                margin-bottom: initial;
+                .Form{
+                    font-size: 10px;
+                    margin-right: 10px;
+                }
+                .Form2{
+                    font-size: 10px;
+                }
+            }
+            .BottomBox{
+                align-items: flex-end;
+                display: flex;
+                justify-content: space-between;
+                font-size: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,380 @@
+.KiteWholeWrap{
+    background-color: #f4f5ee;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display  : flex ;
+        margin : auto;
+        justify-content: center;
+
+    .KiteWrapper{
+        // max-width: 1280px;
+        // width : 100%;
+        width: 1280px;
+        min-width: 1280px;
+        padding : 0 15px;
+        height : 1080px; 
+        display : flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .KiteContainer{
+           
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .KiteBox{
+        display: flex;        
+        align-items: center;
+        justify-content: space-between;
+    }
+    .KiteImgBox{
+        >img {
+            max-width: 930px;
+            height: 815px;
+            width: 100%;
+            height : auto;
+        }
+    }
+    .KiteTextBox{
+        text-align: left;
+        height : 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .KiteName{
+        font-size: 10px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        text-align: right;
+        color: #777777;
+        margin-bottom : 25px;
+
+        ;
+    }
+    .KiteTitleTextBox{
+
+    }
+    .KiteNumber{
+        margin-bottom : 10px;
+        font-size: 10px;
+        font-weight: 600;
+        color : #151515
+    }
+    .KiteTitle{
+        font-size: 24px;
+        font-weight: 800;
+        margin-bottom : 8px;
+        color : #151515
+    }
+    .KiteLet{
+        font-size: 16px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color:#151515;
+        margin-bottom : 20px;
+    }
+    .KiteYear{
+        font-size: 10px;
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #777777;
+        
+        >span{
+            width : 100%;
+            max-width : 28px;
+            margin-right : 8px;
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+            letter-spacing: normal;
+            text-align: left;
+            color: #151515;
+        }
+    }
+    .KiteForm{
+        
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+        letter-spacing: normal;
+        text-align: left;
+        color: #777777;
+        margin-bottom : 40px;
+        span{
+            width : 100%;
+            max-width : 28px;
+            margin-right : 8px;
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+            letter-spacing: normal;
+            text-align: left;
+            color: #151515;
+        }
+    }
+    .KiteSummary{
+        font-size: 10px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #151515;
+        margin-bottom : 9px;
+        
+    }
+    .KiteSummaryText{
+        max-width: 287px;
+        height: 233px;
+        font-family: Montserrat;
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #151515;
+    }
+
+    ///////////////////////
+    .FooterBox{
+        margin-top: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        .FooterTitle{
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #777777;
+        }
+        .FooterCategoryTitle{
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: right;
+            color: #777777;
+        }
+    }
+}
+
+
+
+@media screen and (max-width : 500px){
+    .KiteWholeWrap{
+        background-color: #f4f5ee;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            display  : flex ;
+            margin : auto;
+            justify-content: center;
+    
+        .KiteWrapper{
+            // max-width: 1280px;
+            // width : 100%;
+            width: 100%;
+            min-width: initial;
+            padding : 30px 20px;
+            min-height: 100vh;
+            height : initial; 
+            display : flex;
+            justify-content: center;
+            flex-direction: column;
+            
+        }
+        .KiteContainer{
+               
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .KiteBox{
+            display: flex;        
+            align-items: center;
+            justify-content: space-between;
+        }
+        .KiteImgBox{
+            >img {
+                max-width: 930px;
+                height: 815px;
+                width: 100%;
+                height : auto;
+            }
+        }
+        .KiteTextBox{
+            text-align: left;
+            height : 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .KiteName{
+            display : none;
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.4;
+            letter-spacing: normal;
+            text-align: right;
+            color: #777777;
+            margin-bottom : 25px;
+    
+            ;
+        }
+        .KiteTitleTextBox{
+    
+        }
+        .KiteNumber{
+            margin-bottom : 10px;
+            font-size: 10px;
+            font-weight: 600;
+            color : #151515
+        }
+        .KiteTitle{
+            font-size: 24px;
+            font-weight: 800;
+            margin-bottom : 8px;
+            color : #151515
+        }
+        .KiteLet{
+            font-size: 16px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color:#151515;
+            margin-bottom : 20px;
+        }
+        .KiteYear{
+            font-size: 10px;
+            font-size: 10px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #777777;
+            
+            >span{
+                width : 100%;
+                max-width : 28px;
+                margin-right : 8px;
+                font-size: 10px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.8;
+                letter-spacing: normal;
+                text-align: left;
+                color: #151515;
+            }
+        }
+        .KiteForm{
+            
+            font-size: 10px;
+            font-weight: 300;
+            font-stretch: normal;
+                font-style: normal;
+                line-height: 1.8;
+            letter-spacing: normal;
+            text-align: left;
+            color: #777777;
+            margin-bottom : 40px;
+            span{
+                width : 100%;
+                max-width : 28px;
+                margin-right : 8px;
+                font-size: 10px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.8;
+                letter-spacing: normal;
+                text-align: left;
+                color: #151515;
+            }
+        }
+        .KiteSummary{
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #151515;
+            margin-bottom : 9px;
+            
+        }
+        .KiteSummaryText{
+            max-width: initial;
+            height: initial;
+            font-family: Montserrat;
+            font-size: 10px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: normal;
+            text-align: left;
+            color: #151515;
+            margin-bottom : 30px;
+        }
+    
+        ///////////////////////
+        .FooterBox{
+            margin-top: 25px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            
+            .FooterTitle{
+                font-size: 10px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                letter-spacing: normal;
+                text-align: left;
+                color: #777777;
+            }
+            .FooterCategoryTitle{
+                font-size: 10px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                letter-spacing: normal;
+                text-align: right;
+                color: #777777;
+            }
+        }
+    }
+}

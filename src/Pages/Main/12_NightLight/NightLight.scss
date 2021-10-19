@@ -1,0 +1,392 @@
+.NightLightWholeWrap{
+    background-color: #151515;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display  : flex ;
+        margin : auto;
+        justify-content: center;
+        background-image: url('../../../_asset/images/Main/12_NightLight/12-img@3x.png');
+
+    .NightLightWrapper{
+        // max-width: 1280px;
+        // width : 100%;
+        min-width: 1280px;
+        width: 1280px;
+        padding : 0 15px;
+        height : 1080px; 
+        display : flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .NightLightContainer{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .NightLightBox{
+        display: flex;        
+        align-items: center;
+        justify-content: space-between;
+    }
+    .NightLightImgBox{
+        >img {
+            max-width: 930px;
+            height: 815px;
+            width: 100%;
+            height : auto;
+        }
+    }
+    .NightLightTextBox{
+        text-align: left;
+        height : 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .NightLightName{
+        font-size: 10px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        text-align: right;
+        color: #ffffff
+
+        ;
+    }
+    .NightLightTitleTextBox{
+
+    }
+    .NightLightNumber{
+        margin-bottom : 10px;
+        font-size: 10px;
+        font-weight: 600;
+        color : #ffffff
+    }
+    .NightLightTitle{
+        font-size: 24px;
+        font-weight: 800;
+        margin-bottom : 8px;
+        color : #ffffff
+    }
+    .NightLightLet{
+        font-size: 16px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color:#ffffff;
+        margin-bottom : 20px;
+    }
+    .NightLightYear{
+        font-size: 10px;
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+        display : flex;
+        justify-content: flex-start;
+        align-items: center;
+        >div{
+            width : 28px;
+            margin-right : 8px;
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+            letter-spacing: normal;
+            text-align: left;
+            color: #ffffff;
+            
+        }
+    }
+    .NightLightForm{
+        display : flex;
+        justify-content: flex-start;
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+        margin-bottom : 40px;
+        align-items: center;
+        div{
+            width : 28px;
+            margin-right : 8px;
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+            letter-spacing: normal;
+            text-align: left;
+            color: #ffffff;
+        }
+    }
+    .NightLightSummary{
+        font-size: 10px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+        margin-bottom : 9px;
+        
+    }
+    .NightLightSummaryText{
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+        margin-bottom: 600px;
+        max-width: 230px;
+    }
+
+    ///////////////////////
+    .FooterBox{
+        margin-top: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        .FooterTitle{
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #ffffff;
+        }
+        .FooterCategoryTitle{
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: right;
+            color: #ffffff;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width : 500px){
+    .NightLightWholeWrap{
+        background-color: #151515;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            display  : flex ;
+            margin : auto;
+            justify-content: center;
+            background-image: url('../../../_asset/images/Main/12_NightLight/12-img@3x.png');
+    
+        .NightLightWrapper{
+            max-width: initial;
+            min-width: initial;
+            width: 100%;
+            padding : 30px 20px;
+            height : initial;
+            min-height : 100vh; 
+            display : flex;
+            justify-content: center;
+            flex-direction: column;
+            
+        }
+        .NightLightContainer{
+            max-height : 2000px;
+            height : 100%;   
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .NightLightBox{
+            display: flex;        
+            align-items: center;
+            justify-content: space-between;
+        }
+        .NightLightImgBox{
+            >img {
+                max-width: 930px;
+                height: 815px;
+                width: 100%;
+                height : auto;
+            }
+        }
+        .NightLightTextBox{
+            text-align: left;
+            height : 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .NightLightName{
+            display : none;
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.4;
+            letter-spacing: normal;
+            text-align: right;
+            color: #ffffff
+    
+            ;
+        }
+        .NightLightTitleTextBox{
+    
+        }
+        .NightLightNumber{
+            margin-bottom : 10px;
+            font-size: 10px;
+            font-weight: 600;
+            color : #ffffff
+        }
+        .NightLightTitle{
+            font-size: 24px;
+            font-weight: 800;
+            margin-bottom : 8px;
+            color : #ffffff
+        }
+        .NightLightLet{
+            font-size: 16px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color:#ffffff;
+            margin-bottom : 20px;
+        }
+        .NightLightYear{
+            font-size: 10px;
+            font-size: 10px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #ffffff;
+            display : flex;
+            justify-content: flex-start;
+            align-items: center;
+            >div{
+                width : 28px;
+                margin-right : 8px;
+                font-size: 10px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.8;
+                letter-spacing: normal;
+                text-align: left;
+                color: #ffffff;
+                
+            }
+        }
+        .NightLightForm{
+            display : flex;
+            justify-content: flex-start;
+            font-size: 10px;
+            font-weight: 300;
+            font-stretch: normal;
+                font-style: normal;
+                line-height: 1.8;
+            letter-spacing: normal;
+            text-align: left;
+            color: #ffffff;
+            margin-bottom : 40px;
+            align-items: center;
+            div{
+                width : 28px;
+                margin-right : 8px;
+                font-size: 10px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.8;
+                letter-spacing: normal;
+                text-align: left;
+                color: #ffffff;
+            }
+        }
+        .NightLightSummary{
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #ffffff;
+            margin-bottom : 9px;
+            
+        }
+        .NightLightSummaryText{
+            font-size: 10px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: normal;
+            text-align: left;
+            color: #ffffff;
+            margin-bottom: initial;
+            max-width: initial;
+            width : 100%;
+            br{
+                display : none;
+            }
+        }
+    
+        ///////////////////////
+        .FooterBox{
+            margin-top: 25px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            
+            .FooterTitle{
+                font-size: 10px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                letter-spacing: normal;
+                text-align: left;
+                color: #ffffff;
+            }
+            .FooterCategoryTitle{
+                font-size: 10px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                letter-spacing: normal;
+                text-align: right;
+                color: #ffffff;
+            }
+        }
+    }
+}

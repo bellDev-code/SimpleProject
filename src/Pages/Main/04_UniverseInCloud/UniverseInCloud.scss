@@ -1,0 +1,374 @@
+.UniverseInCloudWrapper{
+    display : flex;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #151515;
+    .UniverseInCloudContainer{
+        width: 1280px;
+        min-width: 1280px;
+        padding : 0 15px;
+        height : 1080px;    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .UniverseInCloudFirstRow{
+            color : #ffffff;
+            display : flex;
+            justify-content: space-between;
+            align-items: center;
+            .UniverseInCloudContents{
+                margin-right : 15px;
+                height: 100%;
+                .Number{
+                    font-size: 10px;
+                    font-weight: 600;
+                    font-stretch: normal;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #ffffff;                 
+                }
+                .Title{
+                    margin-top : 14px;
+                    margin-bottom : 3px;
+                    font-size: 24px;
+                    font-weight: 800;
+                    font-stretch: normal;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #ffffff;
+                    
+                }
+                .SubTitle{
+                    font-size: 16px;
+                    font-weight: 300;
+                    font-stretch: normal;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #777777;
+                    margin-bottom: 23px;            
+                }
+                .MiddleRow{
+                    display : flex;
+                    margin-bottom: 45px;
+                    .YearTitle{
+                        font-size: 10px;
+                        font-weight: 500;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.8;
+                        letter-spacing: normal;
+                        text-align: left;
+                        color: #ffffff;  
+                        margin-right : 5px;          
+                    }
+                    .YearContents{
+                        font-size: 10px;
+                        font-weight: 300;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.8;
+                        letter-spacing: normal;
+                        text-align: left;
+                        color: #777777;
+                        margin-left : 5px;
+                    }
+
+                }
+                .SummaryTitle{
+                    margin-bottom : 5px;
+                    font-size: 10px;
+                    font-weight: 400;
+                    font-stretch: normal;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #ffffff;             
+                }
+                .SummaryContents{
+                    width: 224px;
+                    font-size: 11px;
+                    font-weight: 300;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.5;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #777777;
+                }
+
+            }
+            .ExampleOfUseBox{
+                .Name{
+                    font-size: 10px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.4;
+                    letter-spacing: normal;
+                    text-align: right;
+                    color: #777777;
+                    margin-bottom : 16px;
+                }
+                .Title{
+                    font-size: 10px;
+                    font-weight: 300;
+                    font-stretch: normal;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #777777;
+                    margin-bottom : 8px;
+                }
+                .Img{
+                    img{
+                        width : 100%;
+                    }
+                }
+            }
+
+        }
+        //////////////// Visual Design
+        .VisualDesignTitle{
+            font-size: 10px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: normal;
+            text-align: left;
+            color: #777777;
+            margin-bottom : 8px;
+        }
+        .VisualDesignImg{
+            img{
+                width : 100%;
+            }
+        }
+
+        ///////////// Footer
+        .FooterBox{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 25px;
+            .FooterTitle{
+                font-size: 10px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                letter-spacing: normal;
+                text-align: left;
+                color: #777777;
+            }
+            .FooterCategoryTitle{
+                font-size: 10px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                letter-spacing: normal;
+                text-align: right;
+                color: #777777;
+            }
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width : 500px){
+    .UniverseInCloudWrapper{
+        display : flex;
+        justify-content: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #151515;
+        .UniverseInCloudContainer{
+            width: 100%;
+            min-width: initial;
+            padding : 30px 20px;
+            height : initial;    
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+    
+            .UniverseInCloudFirstRow{
+                color : #ffffff;
+                display : flex;
+                flex-direction : column;
+                justify-content: space-between;
+                align-items: center;
+                .UniverseInCloudContents{
+                    width : 100%;
+                    flex : 1;
+                    margin-right : initial;
+                    height: 100%;
+                    .Number{
+                        font-size: 10px;
+                        font-weight: 600;
+                        font-stretch: normal;
+                        font-style: normal;
+                        letter-spacing: normal;
+                        text-align: left;
+                        color: #ffffff;                 
+                    }
+                    .Title{
+                        margin-top : 14px;
+                        margin-bottom : 3px;
+                        font-size: 24px;
+                        font-weight: 800;
+                        font-stretch: normal;
+                        font-style: normal;
+                        letter-spacing: normal;
+                        text-align: left;
+                        color: #ffffff;
+                        
+                    }
+                    .SubTitle{
+                        font-size: 16px;
+                        font-weight: 300;
+                        font-stretch: normal;
+                        font-style: normal;
+                        letter-spacing: normal;
+                        text-align: left;
+                        color: #777777;
+                        margin-bottom: 23px;            
+                    }
+                    .MiddleRow{
+                        display : flex;
+                        margin-bottom: 45px;
+                        .YearTitle{
+                            font-size: 11px;
+                            font-weight: 500;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: 1.8;
+                            letter-spacing: normal;
+                            text-align: left;
+                            color: #ffffff;  
+                            margin-right : 5px;          
+                        }
+                        .YearContents{
+                            font-size: 11px;
+                            font-weight: 300;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: 1.8;
+                            letter-spacing: normal;
+                            text-align: left;
+                            color: #777777;
+                            margin-left : 5px;
+                        }
+    
+                    }
+                    .SummaryTitle{
+                        margin-bottom : 5px;
+                        font-size: 10px;
+                        font-weight: 400;
+                        font-stretch: normal;
+                        font-style: normal;
+                        letter-spacing: normal;
+                        text-align: left;
+                        color: #ffffff;             
+                    }
+                    .SummaryContents{
+                        width: 100%;
+                        font-size: 11px;
+                        font-weight: 300;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.5;
+                        letter-spacing: normal;
+                        text-align: left;
+                        color: #777777;
+                        max-width: initial;
+                        br{
+                            
+                        }
+                        margin-bottom : 30px;
+                    }
+    
+                }
+                .ExampleOfUseBox{
+                    flex : 1;
+                    .Name{
+                        display: none;
+                        font-size: 10px;
+                        font-weight: 500;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.4;
+                        letter-spacing: normal;
+                        text-align: right;
+                        color: #777777;
+                        margin-bottom : 16px;
+                    }
+                    .Title{
+                        font-size: 10px;
+                        font-weight: 300;
+                        font-stretch: normal;
+                        font-style: normal;
+                        letter-spacing: normal;
+                        text-align: left;
+                        color: #777777;
+                        margin-bottom : 8px;
+                    }
+                    .Img{
+                        img{
+                            width : 100%;
+                        }
+                    }
+                }
+    
+            }
+            //////////////// Visual Design
+            .VisualDesignTitle{
+                font-size: 10px;
+                font-weight: 300;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.5;
+                letter-spacing: normal;
+                text-align: left;
+                color: #777777;
+                margin-bottom : 8px;
+            }
+            .VisualDesignImg{
+                img{
+                    width : 100%;
+                }
+            }
+    
+            ///////////// Footer
+            .FooterBox{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 15px;
+                .FooterTitle{
+                    font-size: 10px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #777777;
+                }
+                .FooterCategoryTitle{
+                    font-size: 10px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    text-align: right;
+                    color: #777777;
+                }
+            }
+        }
+    }
+}

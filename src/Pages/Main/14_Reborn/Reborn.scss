@@ -1,0 +1,263 @@
+.RebornWholeWrap{
+    background-color: #eeefe9;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display  : flex ;
+        margin : auto;
+        justify-content: center;
+
+    .RebornWrapper{
+        // max-width: 1280px;
+        // width : 100%;
+        min-width: 1280px;
+        width: 1280px;
+        padding : 0 15px;
+        height : 1080px; 
+        display : flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .RebornContainer{
+           
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .RebornBox{
+        display: flex;        
+        align-items: center;
+        justify-content: space-between;
+    }
+    .RebornImgBox{
+        >img {
+            max-width: 930px;
+            height: 815px;
+            width: 100%;
+            height : auto;
+        }
+    }
+    .RebornTextBox{
+        text-align: left;
+        height : 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .RebornName{
+        font-size: 10px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        text-align: right;
+        color: #777777
+
+        ;
+    }
+    .RebornTitleTextBox{
+
+    }
+    .RebornNumber{
+        margin-bottom : 10px;
+        font-size: 10px;
+        font-weight: 600;
+        color : #151515
+    }
+    .RebornTitle{
+        font-size: 24px;
+        font-weight: 800;
+        margin-bottom : 8px;
+        color : #151515
+    }
+    .RebornLet{
+        font-size: 16px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color:#777777;
+        margin-bottom : 20px;
+    }
+    .RebornYear{
+        font-size: 10px;
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #777777;
+        display : flex;
+        justify-content: flex-start;
+        align-items: center;
+        
+        >div{
+            margin-right : 8px;
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+            letter-spacing: normal;
+            text-align: left;
+            color: #151515;
+        }
+    }
+    .RebornForm{
+        display : flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+        letter-spacing: normal;
+        text-align: left;
+        color: #777777;
+        margin-bottom : 40px;
+        div{
+            margin-right : 8px;
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+            letter-spacing: normal;
+            text-align: left;
+            color: #151515;
+        }
+    }
+    .RebornSummary{
+        font-size: 10px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: right;
+        color: #151515;
+        margin-bottom : 9px;
+        
+    }
+    .RebornSummaryText{
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: right;
+        color: #151515;
+        max-width: 225px;
+    }
+
+    ///////////////////////
+    .FooterBox{
+        margin-top: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        .FooterTitle{
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #777777;
+        }
+        .FooterCategoryTitle{
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: right;
+            color: #777777;
+        }
+    }
+}
+@media screen and (max-width:500px){
+    .RebornWholeWrap{
+
+        min-height: 100vh;
+        .RebornWrapper{
+            min-width:initial;
+            height: initial;
+            padding: initial;
+            padding : 30px 15px;
+        }
+        .RebornContainer{
+            display: initial;
+        }
+        .RebornBox{
+            display: initial;
+        }
+        .RebornImgBox{
+            max-width: 500px;
+            >img {
+                width: 100%;
+            }
+        }
+        .RebornTextBox{
+            height: initial;
+        }
+        .RebornName{
+            display: none;
+        }
+        .RebornTitleTextBox{
+    
+        }
+        .RebornNumber{
+ 
+        }
+        .RebornTitle{
+   
+        }
+        .RebornLet{
+
+        }
+        .RebornYear{
+         
+            
+            >div{
+                font-size: 11px;
+            }
+        }
+        .RebornForm{
+
+            div{
+                font-size: 11px;
+            }
+        }
+        .RebornSummary{
+            font-weight: 400;
+            text-align: left;
+            font-size : 11px;
+            margin-top : 15px;
+            
+        }
+        .RebornSummaryText{
+            font-size: 11px;
+           max-width: initial;
+           text-align: left;
+        }
+    
+        ///////////////////////
+        .FooterBox{
+
+            
+            .FooterTitle{
+
+            }
+            .FooterCategoryTitle{
+
+            }
+        }
+    }
+}

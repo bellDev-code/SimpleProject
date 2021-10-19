@@ -1,0 +1,264 @@
+.CalligraphyWholeWrap{
+    background-color: #151515;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display  : flex ;
+        margin : auto;
+        justify-content: center;
+
+    .CalligraphyWrapper{
+        // max-width: 1280px;
+        // width : 100%;
+        width: 1280px;
+        min-width: 1280px;
+        padding : 0 15px;
+        height : 1080px; 
+        display : flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .CalligraphyContainer{
+           
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .CalligraphyBox{
+        display: flex;        
+        align-items: center;
+        justify-content: space-between;
+    }
+    .CalligraphyImgBox{
+        >img {
+            max-width: 930px;
+            height: 815px;
+            width: 100%;
+            height : auto;
+        }
+    }
+    .CalligraphyTextBox{
+        text-align: left;
+        height : 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .CalligraphyName{
+        font-size: 10px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        text-align: right;
+        color: #777777
+
+        ;
+    }
+   
+    .CalligraphyNumber{
+        margin-bottom : 10px;
+        font-size: 10px;
+        font-weight: 600;
+        color : #ffffff
+    }
+    .CalligraphyTitle{
+        font-size: 24px;
+        font-weight: 800;
+        margin-bottom : 8px;
+        color : #ffffff
+    }
+    .CalligraphyLet{
+        font-size: 16px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color:#777777;
+        margin-bottom : 20px;
+    }
+    .CalligraphyYear{
+        font-size: 10px;
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #777777;
+        
+        >span{
+            margin-right : 8px;
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+            letter-spacing: normal;
+            text-align: left;
+            color: #ffffff;
+        }
+    }
+    .CalligraphyForm{
+        
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+        letter-spacing: normal;
+        text-align: left;
+        color: #777777;
+        margin-bottom : 40px;
+        span{
+            margin-right : 8px;
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+            letter-spacing: normal;
+            text-align: left;
+            color: #ffffff;
+        }
+    }
+    .CalligraphySummary{
+        font-size: 10px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: right;
+        color: #ffffff;
+        margin-bottom : 9px;
+        
+    }
+    .CalligraphySummaryText{
+        width: 219px;
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: right;
+        color: #777777;
+        margin-left: 102px;
+    }
+
+    ///////////////////////
+    .FooterBox{
+        margin-top: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        .FooterTitle{
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #777777;
+        }
+        .FooterCategoryTitle{
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: right;
+            color: #777777;
+        }
+    }
+}
+
+@media screen and (max-width:500px) {
+    .CalligraphyWholeWrap{
+        
+    
+        .CalligraphyWrapper{
+            width: initial;
+            min-width: initial;
+            height : initial;
+            min-height: 100vh;
+            padding : 30px 20px;
+        }
+        .CalligraphyContainer{
+            flex-direction: column;
+        }
+        .CalligraphyBox{
+            display: flex;
+            flex-direction: column-reverse;
+            .CalligraphyName{
+                display: none;
+            }
+        }
+        .CalligraphyYear{
+            font-size: 10px;
+            font-size: 10px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #777777;
+            
+            >span{
+                margin-right : 8px;
+                font-size: 11px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.8;
+                letter-spacing: normal;
+                text-align: left;
+                color: #ffffff;
+            }
+        }
+        .CalligraphyForm{
+            
+            font-size: 10px;
+            font-weight: 300;
+            font-stretch: normal;
+                font-style: normal;
+                line-height: 1.8;
+            letter-spacing: normal;
+            text-align: left;
+            color: #777777;
+            margin-bottom : 40px;
+            span{
+                margin-right : 8px;
+                font-size: 11px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.8;
+                letter-spacing: normal;
+                text-align: left;
+                color: #ffffff;
+            }
+        }
+        .CalligraphyBox{
+            align-items: flex-start;
+            .CalligraphySummary{
+                text-align: initial;
+                font-size: 11px;;
+            }
+            .CalligraphySummaryText{
+                width: 100%;
+                font-size: 11px;;
+                text-align: initial;
+                padding-bottom: 30px;
+                margin-left: initial;
+                br{
+                    
+                }
+            }
+        }
+    }
+}

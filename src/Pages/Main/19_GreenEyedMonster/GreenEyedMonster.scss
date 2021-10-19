@@ -1,0 +1,265 @@
+.GreenEyedWholeWrap{
+    background-color: #29311a;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display  : flex ;
+        margin : auto;
+        justify-content: center;
+        color: #2a301a;
+    .GreenEyedWrapper{
+        // max-width: 1280px;
+        // width : 100%;
+        min-width: 1280px;
+        width: 1280px;
+        padding : 0 15px;
+        height : 1080px; 
+        display : flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .GreenEyedContainer{
+           
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .GreenEyedBox{
+        display: flex;        
+        align-items: center;
+        justify-content: space-between;
+    }
+    .GreenEyedImgBox{
+        >img {
+            max-width: 930px;
+            height: 815px;
+            width: 100%;
+            height : auto;
+        }
+    }
+    .GreenEyedTextBox{
+        text-align: left;
+        height : 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .GreenEyedName{
+        font-size: 10px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        text-align: right;
+        color: #a6984d
+
+        ;
+    }
+
+    .GreenEyedNumber{
+        margin-bottom : 10px;
+        font-size: 10px;
+        font-weight: 600;
+        color : #a6984d
+    }
+    .GreenEyedTitle{
+        font-size: 24px;
+        font-weight: 800;
+        margin-bottom : 8px;
+        color : #a6984d
+    }
+    .GreenEyedLet{
+        font-size: 16px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color:#a6984d;
+        margin-bottom : 20px;
+    }
+    .GreenEyedYear{
+        font-size: 10px;
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #a6984d;
+        
+        >span{
+            margin-right : 8px;
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+            letter-spacing: normal;
+            text-align: left;
+            color: #a6984d;
+        }
+    }
+    .GreenEyedTitleTextBox{
+        max-width: 290px;
+        
+    }
+    .GreenEyedForm{
+        
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+        letter-spacing: normal;
+        text-align: left;
+        color: #a6984d;
+        margin-bottom : 185px;
+        span{
+            margin-right : 8px;
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+            letter-spacing: normal;
+            text-align: left;
+            color: #a6984d;
+        }
+    }
+    .GreenEyedSummary{
+        font-size: 10px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #a6984d;
+        margin-bottom : 9px;
+        
+    }
+    .GreenEyedSummaryText{
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: right;
+        color: #a6984d;
+    }
+
+    ///////////////////////
+    .FooterBox{
+        margin-top: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        .FooterTitle{
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #a6984d;
+        }
+        .FooterCategoryTitle{
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: right;
+            color: #a6984d;
+        }
+    }
+
+    .GreenEyedSummaryText1{
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #a6984d;
+    }
+}
+@media screen and (max-width:500px){
+    .GreenEyedWholeWrap{
+        min-height: 100vh;
+        .GreenEyedWrapper{
+            min-width:initial;
+            height: initial;
+            padding: initial;
+            padding : 30px 20px;
+        }
+        .GreenEyedContainer{
+            display: initial;
+        }
+        .GreenEyedBox{
+            display: initial;
+        }
+        .GreenEyedImgBox{
+            max-width: 500px;
+            >img {
+                width: 100%;
+            }
+        }
+        .GreenEyedTextBox{
+            height: initial;
+        }
+        .GreenEyedName{
+            display: none;
+        }
+    
+        .GreenEyedNumber{
+
+        }
+        .GreenEyedTitle{
+
+        }
+        .GreenEyedLet{
+
+        }
+        .GreenEyedYear{
+
+            
+            >span{
+
+            }
+        }
+        .GreenEyedForm{
+            margin-bottom: initial;
+            span{
+
+            }
+        }
+        .GreenEyedTitleTextBox{
+            max-width: initial;
+        }
+        .GreenEyedSummary{
+           text-align: left;
+           margin-top : 15px;
+        }
+        .GreenEyedSummaryText{
+            margin-top : 15px;
+            text-align: left;
+           
+        }
+    
+        ///////////////////////
+        .FooterBox{
+            
+            .FooterTitle{
+            }
+            .FooterCategoryTitle{
+
+            }
+        }
+    }
+}

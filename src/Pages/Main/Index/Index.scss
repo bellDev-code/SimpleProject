@@ -1,0 +1,191 @@
+.IndexWrapper{
+    display : flex;
+    justify-content: center;
+    background-color: #f9f9f9;
+    // background-image: url(../../../_asset/images/Main/DesignIs/00-bg@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    .IndexWrapperContainer{
+        width: 1280px;
+        min-width: 1280px;
+        padding : 0 15px;
+        height : 1080px;    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .IndexTitle{
+            flex : 1;
+            font-size: 30px;
+            font-weight: 800;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.33;
+            letter-spacing: normal;
+            text-align: left;
+            color: #151515;
+            padding-left : 160px;
+
+        }
+        .IndexColumContainer{
+            flex : 1;
+            max-height : 640px;
+            height : 100%;
+            display : flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-content: space-between;
+            // justify-content: space-between;
+            
+            .IndexColum{
+                cursor: pointer;
+                padding : 9px;
+                display : flex;
+                flex-direction: row;
+                .ItemNumber{
+                    font-size: 17px;
+                    font-weight: 400;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.18;
+                    letter-spacing: 0.68px;
+                    text-align: right;
+                    color: #151515;
+                    margin-right : 21px;
+                    width: 24px;
+                }
+                .ContentsLists{
+                    display: flex;
+                    flex-direction: column;
+                    .title{
+                        font-size: 17px;
+                        font-weight: 400;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.18;
+                        letter-spacing: normal;
+                        text-align: left;
+                        color: #151515;
+                    }
+                    .body{
+                        font-size: 12px;
+                        font-weight: 300;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.67;
+                        letter-spacing: normal;
+                        text-align: left;
+                        color: #777777;
+                        max-width: 240px;
+                    }
+
+                }
+
+            }
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width : 500px){
+    .IndexWrapper{
+        display : flex;
+        justify-content: center;
+        background-color: #f9f9f9;
+        // background-image: url(../../../_asset/images/Main/DesignIs/00-bg@3x.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        .IndexWrapperContainer{
+            width: 100%;
+            min-width: initial;
+            padding : 30px 20px;
+            height : 100%;  
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+    
+            .IndexTitle{
+                flex : 1;
+                font-size: 25px;
+                font-weight: 800;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.33;
+                letter-spacing: normal;
+                text-align: left;
+                color: #151515;
+                padding-left : initial;
+                margin-bottom : 30px;
+                
+    
+            }
+            .IndexColumContainer{
+                flex : 1;
+                max-height : initial;
+                height : initial;
+                display : flex;
+                flex-wrap: nowrap;
+                flex-direction: column;
+                align-content: space-between;
+                // justify-content: space-between;
+                
+                .IndexColum{
+                    width : 100%;
+                    max-width: 500px;
+                    cursor: pointer;
+                    padding : 9px;
+                    display : flex;
+                    flex-direction: row;
+                    // background-color: #e9e9e9;
+                    // border : solid 1px #e9e9e9;
+                    border-radius: 10px;
+                    margin : 1%;
+                    .ItemNumber{
+                        font-size: 17px;
+                        font-weight: 400;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.18;
+                        letter-spacing: 0.68px;
+                        text-align: center;
+                        color: #151515;
+                        margin-right : initial;
+                        max-width: 44px;
+                        width : 100%;
+                    }
+                    .ContentsLists{
+                        display: flex;
+                        flex-direction: column;
+                        .title{
+                            font-size: 17px;
+                            font-weight: 400;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: 1.18;
+                            letter-spacing: normal;
+                            text-align: left;
+                            color: #151515;
+                        }
+                        .body{
+                            font-size: 12px;
+                            font-weight: 300;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: 1.67;
+                            letter-spacing: normal;
+                            text-align: left;
+                            color: #777777;
+                            max-width: initial;
+                        }
+    
+                    }
+    
+                }
+            }
+        }
+    }
+}

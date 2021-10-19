@@ -1,0 +1,385 @@
+.YellowWallpaperContaner{
+    background-color: #e8ecee;
+    .YellowWallpaperWrapper{
+        display: flex;
+        flex-direction: column;
+        // max-width: 1280px;
+        // width: 100%;
+        width: 1280px;
+        padding: 0 15px;
+        height: 1080px;
+        justify-content: center;
+        
+        margin : auto;  
+    }
+    .YellowWallpaperBox{
+        display: flex;        
+        align-items: center;
+        justify-content: space-between;
+    }
+    .YellowWallpaperImgBox{
+        >img {
+            max-width: 930px;
+            height: 815px;
+            width: 100%;
+            height : auto;
+        }
+    }
+    .YellowWallpaperTextBox{
+        text-align: right;
+        height : 100%;
+    }
+    .YellowWallpaperName{
+        font-size: 10px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        text-align: right;
+        color: #777777;
+    }
+    .YellowWallpaperTitleTextBox{
+
+    }
+    .YellowWallpaperNumber{
+        margin-top : 281px;
+        margin-bottom : 10px;
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .YellowWallpaperTitle{
+        font-size: 24px;
+        font-weight: 800;
+        margin-bottom : 8px;
+    }
+    .YellowWallpaperLet{
+        font-size: 16px;
+        font-weight: 300;
+        color:#777777;
+        margin-bottom : 20px;
+    }
+    .YellowWallpaperYear{
+        font-size: 10px;
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: right;
+        color: #777777;
+       
+        >span{
+            margin-left : 8px;
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+            letter-spacing: normal;
+            text-align: right;
+            color: #151515;
+        }
+    }
+        .YellowWallpaperSize{
+        
+            font-size: 10px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+            letter-spacing: normal;
+            text-align: right;
+            color: #777777;
+            
+            span{
+                margin-left : 8px;
+                font-size: 10px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.8;
+                letter-spacing: normal;
+                text-align: right;
+                color: #151515;
+            }
+    }
+    .YellowWallpaperForm{
+        
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.8;
+        letter-spacing: normal;
+        text-align: right;
+        color: #777777;
+        margin-bottom : 40px;
+        span{
+            margin-left : 8px;
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+            letter-spacing: normal;
+            text-align: right;
+            color: #151515;
+        }
+        
+    }
+    .YellowWallpaperSummary{
+        font-size: 10px;
+        font-weight: 400;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: right;
+        color: #151515;
+        margin-bottom : 9px;
+        
+    }
+    .YellowWallpaperSummaryText{
+        max-width: 223px;
+        width: 100%;
+        display: -webkit-inline-box;
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: right;
+        color: #777777;
+    }
+
+    ///////////////////////
+    .FooterBox{
+        margin-top: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        .FooterTitle{
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #777777;
+        }
+        .FooterCategoryTitle{
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: right;
+            color: #777777;
+        }
+    }
+}
+
+
+
+@media screen and (max-width : 500px){
+    .YellowWallpaperContaner{
+        background-color: #e8ecee;
+        .YellowWallpaperWrapper{
+            display: flex;
+            flex-direction: column;
+            // max-width: 1280px;
+            // width: 100%;
+            width: initial;
+            padding: 30px 20px;
+            height: initial;
+            min-height: 100vh;
+            justify-content: center;
+            
+            margin : auto;  
+        }
+        .YellowWallpaperBox{
+            display: flex;        
+            align-items: center;
+            flex-direction: column-reverse;
+            justify-content: space-between;
+        }
+        .YellowWallpaperImgBox{
+            >img {
+                max-width: 930px;
+                height: 815px;
+                width: 100%;
+                height : auto;
+            }
+        }
+        .YellowWallpaperTextBox{
+            text-align: left;
+            height : 100%;
+            width : 100%;
+        }
+        .YellowWallpaperName{
+            display: none;
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.4;
+            letter-spacing: normal;
+            text-align: right;
+            color: #777777;
+        }
+        .YellowWallpaperTitleTextBox{
+            
+    
+        }
+        .YellowWallpaperNumber{
+            margin-top : initial;
+            margin-bottom : 10px;
+            font-size: 10px;
+            font-weight: 600;
+        }
+        .YellowWallpaperTitle{
+            font-size: 24px;
+            font-weight: 800;
+            margin-bottom : 8px;
+        }
+        .YellowWallpaperLet{
+            font-size: 16px;
+            font-weight: 300;
+            color:#777777;
+            margin-bottom : 20px;
+        }
+        .YellowWallpaperYear{
+            font-size: 10px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #777777;
+            display : flex;
+            flex-direction: row-reverse;
+            justify-content: flex-end;
+           
+            >div{
+                margin-left : initial;
+                width : 35px;
+                font-size: 10px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.8;
+                letter-spacing: normal;
+                text-align: left;
+                color: #151515;
+            }
+        }
+            .YellowWallpaperSize{
+            
+                font-size: 10px;
+                font-weight: 300;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.8;
+                letter-spacing: normal;
+                text-align: left;
+                color: #777777;
+                display : flex;
+                flex-direction: row-reverse;
+                justify-content: flex-end;
+
+                
+                div{
+                    margin-left : initial;
+                    width : 35px;
+                    font-size: 10px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.8;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #151515;
+                }
+        }
+        .YellowWallpaperForm{
+            
+            font-size: 10px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+            letter-spacing: normal;
+            text-align: left;
+            color: #777777;
+            margin-bottom : 40px;
+            display : flex;
+            flex-direction: row-reverse;
+            justify-content: flex-end;
+            div{
+                width : 35px;
+                margin-left : initial;
+                font-size: 10px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.8;
+                letter-spacing: normal;
+                text-align: left;
+                color: #151515;
+            }
+            
+        }
+        .YellowWallpaperSummary{
+            font-size: 11px;
+            font-weight: 400;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #151515;
+            margin-bottom : 9px;
+            
+        }
+        .YellowWallpaperSummaryText{
+            font-size: 11px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: normal;
+            text-align: left;
+            color: #777777;
+            max-width: initial;
+            margin-bottom : 30px;
+        }
+    
+        ///////////////////////
+        .FooterBox{
+            margin-top: 25px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            
+            .FooterTitle{
+                font-size: 10px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                letter-spacing: normal;
+                text-align: left;
+                color: #777777;
+            }
+            .FooterCategoryTitle{
+                font-size: 10px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                letter-spacing: normal;
+                text-align: right;
+                color: #777777;
+            }
+        }
+    }
+}

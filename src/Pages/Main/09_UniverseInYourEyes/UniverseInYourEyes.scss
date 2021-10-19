@@ -1,0 +1,328 @@
+.UniverseInYourEyesWholeWrap{
+    background-color: #e5e7e6
+
+    ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display  : flex ;
+        margin : auto;
+        justify-content: center;
+
+    .UniverseInYourEyesWrapper{
+        // max-width: 1280px;
+        // width : 100%;
+        width: 1280px;
+        min-width: 1280px;
+        padding : 0 15px;
+        height : 1080px; 
+        display : flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .UniverseInYourEyesContainer{
+           
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .UniverseInYourEyesBox{
+        display: flex;        
+        align-items: center;
+        justify-content: space-between;
+    }
+    .UniverseInYourEyesImgBox{
+        >img {
+            max-width: 930px;
+            height: 815px;
+            width: 100%;
+            height : auto;
+        }
+    }
+    .UniverseInYourEyesTextBox{
+        text-align: right;
+        height : 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        // justify-content: space-between;
+    }
+    .UniverseInYourEyesName{
+        font-size: 10px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        text-align: right;
+        color: #777777;
+        margin-bottom : 173px;
+
+        ;
+    }
+    .UniverseInYourEyesTitleTextBox{
+        
+        
+
+    }
+    .UniverseInYourEyesNumber{
+        margin-bottom : 10px;
+        font-size: 10px;
+        font-weight: 600;
+        color : #151515
+    }
+    .UniverseInYourEyesTitle{
+        font-size: 24px;
+        font-weight: 800;
+        margin-bottom : 8px;
+        color : #151515
+    }
+    .UniverseInYourEyesLet{
+        font-size: 16px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: right;
+        color:#777777;
+        margin-bottom : 20px;
+    }
+    .UniverseInYourEyesYear{
+        font-size: 10px;
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: right;
+        color: #777777;
+        display : flex;
+        justify-content: flex-end;
+        width: 100%;
+        >div{
+            width : 100%;
+            max-width : 28px;
+            margin-left : 8px;
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+            letter-spacing: normal;
+            text-align: right;
+            color: #151515;
+        }
+    }
+    .UniverseInYourEyesForm{
+        
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+        letter-spacing: normal;
+        text-align: right;
+        color: #777777;
+        margin-bottom : 40px;
+        display : flex;
+        justify-content: flex-end;
+        max-width: 400px;
+        width : 100%;
+        div{
+            width : 100%;
+            max-width : 28px;
+            margin-left : 8px;
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.8;
+            letter-spacing: normal;
+            text-align: right;
+            color: #151515;
+        }
+    }
+    .UniverseInYourEyesSummary{
+        font-size: 10px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: right;
+        color: #151515;
+        margin-bottom : 9px;
+        
+    }
+    .UniverseInYourEyesSummaryText{
+        width: 219px;
+        font-size: 10px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: right;
+        color: #777777;
+    }
+
+    ///////////////////////
+    .FooterBox{
+        margin-top: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        .FooterTitle{
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #777777;
+        }
+        .FooterCategoryTitle{
+            font-size: 10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: right;
+            color: #777777;
+        }
+    }
+}
+
+@media screen and (max-width:500px){
+    .UniverseInYourEyesWholeWrap{
+        
+    
+        
+           
+    
+        .UniverseInYourEyesWrapper{
+            width: initial;
+            min-width: initial;
+            min-height : 100vh;
+            height : initial;
+            padding : 30px 20px;
+            
+        }
+        .UniverseInYourEyesContainer{
+            flex-direction: column-reverse;
+            
+        }
+        .UniverseInYourEyesBox{
+            
+        }
+        .UniverseInYourEyesImgBox{
+            >img {
+                
+            }
+        }
+        .UniverseInYourEyesTextBox{
+            text-align: initial;
+            align-items: initial;
+            
+        }
+        .UniverseInYourEyesName{
+            display: none;
+        }
+        .UniverseInYourEyesTitleTextBox{
+    
+        }
+        .UniverseInYourEyesNumber{
+           
+        }
+        .UniverseInYourEyesTitle{
+            
+        }
+        .UniverseInYourEyesLet{
+            text-align: left;
+        }
+        .UniverseInYourEyesYear{
+            font-size: 10px;
+            font-size: 10px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: right;
+            
+            display : flex;
+            justify-content: flex-end;
+            flex-direction: row-reverse;
+            width: 100%;
+            
+            >div{
+                width : 100%;
+                max-width : 35px;
+                margin-right : initial;
+                margin-left : initial;
+                font-size: 11px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.8;
+                letter-spacing: normal;
+                text-align: left;
+                
+            }
+        }
+        .UniverseInYourEyesForm{
+            font-size: 10px;
+            font-size: 10px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: right;
+            
+            display : flex;
+            justify-content: flex-end;
+            flex-direction: row-reverse;
+            width: 100%;
+            
+            
+            div{
+                width : 100%;
+                max-width : 35px;
+                margin-right : initial;
+                margin-left : initial;
+                font-size: 11px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.8;
+                letter-spacing: normal;
+                text-align: left;
+            }
+        }
+        .UniverseInYourEyesSummary{
+            text-align: left;
+            
+        }
+        .UniverseInYourEyesSummaryText{
+            width: 100%;
+            margin-bottom : 30px;
+            text-align: left;
+            br{
+                
+            }
+        }
+    
+        ///////////////////////
+        .FooterBox{
+            
+            
+            .FooterTitle{
+                
+            }
+            .FooterCategoryTitle{
+                
+            }
+        }
+    }
+    
+}

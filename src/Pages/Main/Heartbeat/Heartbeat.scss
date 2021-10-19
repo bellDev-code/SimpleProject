@@ -1,0 +1,278 @@
+.HeartbeatWraper{
+    display : flex;
+    justify-content: center;
+    background-color: #e3e3e3;
+
+    .HeartbeatContainer{
+        width: 1280px;
+        min-width: 1280px;
+            padding : 0 15px;
+            height : 1080px;
+            display: flex;
+            flex-direction: column;
+        
+        .HeartbeatBox{
+            display: flex;
+            flex-direction: column;
+            
+            .HeartbeatTextTopText{
+                display: flex;
+                justify-content: space-between;
+                padding-top: 100px;
+                margin-top: 15px;
+                .HeartbeatTextTopLeft{
+                    font-size: 10px;
+                    font-weight: 600;
+                    color: #151515;                       
+                }
+                .HeartbeatTextTopRight{
+                    font-size: 10px;
+                    font-weight: 500;
+                    color: #777777;
+                    text-align: right;
+                    line-height: 1.4;
+                }
+            }
+            .HeartbeatCotentsBox{
+                display: flex;
+                flex-wrap: wrap;
+                .HeartbeatTextContainer{
+                    flex: 2;
+                    
+                    .HeartbeatTittleTextBox{
+                        .HeartbeatTitlleText{
+                            font-size: 24px;
+                            font-weight: 800;
+                            line-height: 1.25;
+                            color: #151515;
+
+                        }
+                        .HeartbeatSubTitlleText{
+                            font-size: 16px;
+                            font-weight: 300;
+                            color: #777777;
+                            padding-top: 10px;
+
+                        }
+                        .HeartbeatMiddleTextBox{
+                            display: flex;
+                            padding-top: 20px;
+                            .HeartbeatMiddleTittle{
+                                display: flex;
+                                font-size: 10px;
+                                font-weight: 500;
+                                line-height: 1.8;
+                                color: #151515;
+                                padding-right: 10px;
+
+                            }
+                            .HeartbeatMiddleText{
+                                display: flex;
+                                font-size: 10px;
+                                font-weight: 300;
+                                line-height: 1.8;
+                                color: #777777;
+                                
+                            }
+                        }
+                        .HeartbeatBottomTittle{
+                            padding-top: 50px;
+                            font-size: 10px;
+                            font-weight: 500;
+                            color: #151515;
+                            
+                        }
+                        .HeartbeatBottomText{
+                            padding-top: 15px;
+                            font-size: 10px;
+                            font-weight: 300;
+                            line-height: 1.5;
+                            text-align: left;
+                            color: #777777;
+
+                        }
+                    }                
+                }
+                .HeartbeatBottomBox{
+                    display: flex;
+                    flex-direction: column;
+
+                    .HeartbeatImgBox{
+                        img{
+                            width: 100%;
+                        }
+                        margin-top: 60px;
+                    }
+                }
+            }
+                
+        }
+        .HeartbeatFooterBox{
+            display: flex;
+            justify-content: space-between;
+            .HeartbeatFooterLeft{
+                font-size: 10px;
+                font-weight: 500;
+                color: #777777;
+
+
+            }
+            .HeartbeatFooterRight{
+                font-size: 10px;
+                font-weight: 500;
+                color: #777777;
+                text-align: right;
+
+
+
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width : 500px){
+    .HeartbeatWraper{
+    
+        display : flex;
+        justify-content: center;
+        background-color: #e3e3e3;
+    
+        .HeartbeatContainer{
+            min-width: initial;
+                padding : 30px 15px;
+                height : initial;
+                min-height : 100vh;
+                display: flex;
+                flex-direction: column;
+            
+            .HeartbeatBox{
+                display: flex;
+                flex-direction: column;
+                
+                .HeartbeatTextTopText{
+                    display: flex;
+                    justify-content: space-between;
+                    padding-top: initial;
+                    margin-top: initial;
+                    .HeartbeatTextTopLeft{
+                        font-size: 10px;
+                        font-weight: 600;
+                        color: #151515;                       
+                    }
+                    .HeartbeatTextTopRight{
+                        display : none;
+                        font-size: 10px;
+                        font-weight: 500;
+                        color: #777777;
+                        text-align: right;
+                        line-height: 1.4;
+                    }
+                }
+                .HeartbeatCotentsBox{
+                    display: flex;
+                    flex-wrap: wrap;
+                    .HeartbeatTextContainer{
+                        flex: 2;
+                        
+                        .HeartbeatTittleTextBox{
+                            .HeartbeatTitlleText{
+                                font-size: 24px;
+                                font-weight: 800;
+                                line-height: 1.25;
+                                color: #151515;
+    
+                            }
+                            .HeartbeatSubTitlleText{
+                                font-size: 16px;
+                                font-weight: 300;
+                                color: #777777;
+                                padding-top: 10px;
+    
+                            }
+                            .HeartbeatMiddleTextBox{
+                                display: flex;
+                                padding-top: 20px;
+                                .HeartbeatMiddleTittle{
+                                    display: flex;
+                                    font-size: 11px;
+                                    font-weight: 500;
+                                    line-height: 1.8;
+                                    color: #151515;
+                                    padding-right: 10px;
+    
+                                }
+                                .HeartbeatMiddleText{
+                                    display: flex;
+                                    font-size: 10px;
+                                    font-weight: 300;
+                                    line-height: 1.8;
+                                    color: #777777;
+                                    
+                                }
+                            }
+                            .HeartbeatBottomTittle{
+                                padding-top: 50px;
+                                font-size: 11px;
+                                font-weight: 500;
+                                color: #151515;
+                                
+                            }
+                            .HeartbeatBottomText{
+                                padding-top: 15px;
+                                font-size: 11px;
+                                font-weight: 300;
+                                line-height: 1.5;
+                                text-align: left;
+                                color: #777777;
+                                br{
+                                    display: none;
+                                }
+    
+                            }
+                        }                
+                    }
+                    .HeartbeatBottomBox{
+                        display: flex;
+                        flex-direction: column;
+    
+                        .HeartbeatImgBox{
+                            img{
+                                width: 100%;
+                            }
+                            margin-top: 30px;
+                        }
+                    }
+                }
+                    
+            }
+            .HeartbeatFooterBox{
+                display: flex;
+                justify-content: space-between;
+                margin-top : 15px;
+                .HeartbeatFooterLeft{
+                    font-size: 10px;
+                    font-weight: 500;
+                    color: #777777;
+    
+    
+                }
+                .HeartbeatFooterRight{
+                    font-size: 10px;
+                    font-weight: 500;
+                    color: #777777;
+                    text-align: right;
+    
+    
+    
+                }
+            }
+        }
+    }
+    
+}
